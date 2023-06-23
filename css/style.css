@@ -1,0 +1,88 @@
+header {
+  background-color: rgb(240, 219, 219);
+}
+header h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: rgb(254, 252, 243);
+}
+header form fieldset {
+  padding-left: 80%;
+}
+header form fieldset input {
+  background-color: rgba(254, 252, 243, 0.9882);
+}
+
+main {
+  text-align: center;
+  background-color: rgb(219, 163, 154);
+  color: rgb(254, 252, 243);
+}
+main h2 {
+  font-family: "Questrial", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+main h3 {
+  text-align: center;
+  font-family: "Ruda", sans-serif;
+  font-size: 50px;
+}
+main fieldset {
+  font-family: "Convergence", sans-serif;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+main h5 {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Ruda", sans-serif;
+  padding-bottom: 300px;
+}
+
+body {
+  margin: 0%;
+}
+body header {
+  background-color: rgb(219, 163, 154);
+}
+body header h1 {
+  padding-left: 20px;
+  color: black;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+}
+body header fieldset {
+  padding-left: 80%;
+}
+body header input {
+  background-color: rgb(240, 219, 219);
+}
+body main {
+  background-color: rgb(245, 235, 224);
+}
+body main h1 {
+  font-family: "Ruda", sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  margin: 0%;
+}
+body main section {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr) grid-template-areas "uno, dos, tres" "uno, dos, tres" "uno, dos, tres";
+  grid-area: "uno, dos, tres" "uno, dos, tres" "uno, dos, tres";
+}
+body main img {
+  height: 600px;
+  width: 500px;
+}
+body main .dos {
+  font-family: "Ruda", sans-serif;
+  font-size: 40px;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

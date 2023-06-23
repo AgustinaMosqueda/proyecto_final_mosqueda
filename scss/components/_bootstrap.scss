@@ -1,0 +1,19 @@
+header{
+    background-color: F0DBDB;
+    h1{
+        font-family:'Inria Serif', serif; 
+        color: FEFCF3;
+    }
+}
+main{
+    background-color:DBA39A ;
+    h2{
+        font-family:'Inria Serif', serif;
+    }
+}
+
+@media(min-widht:320){
+    body{
+        background-color:DBA39A ;
+    }
+}
