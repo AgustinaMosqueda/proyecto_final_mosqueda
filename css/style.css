@@ -1,40 +1,40 @@
-header {
+.headeruno {
   background-color: rgb(240, 219, 219);
 }
-header h1 {
+.headeruno h1 {
   text-align: center;
   font-family: "Oswald", sans-serif;
   color: rgb(254, 252, 243);
 }
-header form fieldset {
+.headeruno form fieldset {
   padding-left: 80%;
 }
-header form fieldset input {
+.headeruno form fieldset input {
   background-color: rgba(254, 252, 243, 0.9882);
 }
 
-main {
+.mainuno {
   text-align: center;
   background-color: rgb(219, 163, 154);
   color: rgb(254, 252, 243);
 }
-main h2 {
+.mainuno h2 {
   font-family: "Questrial", sans-serif;
   padding-top: 10px;
   padding-bottom: 20px;
 }
-main h3 {
+.mainuno h3 {
   text-align: center;
   font-family: "Ruda", sans-serif;
   font-size: 50px;
 }
-main fieldset {
+.mainuno fieldset {
   font-family: "Convergence", sans-serif;
   font-size: 30px;
   display: flex;
   flex-direction: column;
 }
-main h5 {
+.mainuno h5 {
   font-size: 50px;
   display: flex;
   flex-direction: column;
@@ -42,47 +42,82 @@ main h5 {
   padding-bottom: 300px;
 }
 
-body {
+.body {
   margin: 0%;
 }
-body header {
+.body header {
   background-color: rgb(219, 163, 154);
 }
-body header h1 {
+.body header h1 {
   padding-left: 20px;
   color: black;
   text-align: left;
   font-family: "Oswald", sans-serif;
 }
-body header fieldset {
+.body header fieldset {
   padding-left: 80%;
 }
-body header input {
+.body header input {
   background-color: rgb(240, 219, 219);
 }
-body main {
+.body .maindos {
   background-color: rgb(245, 235, 224);
 }
-body main h1 {
+.body .maindos h1 {
   font-family: "Ruda", sans-serif;
   color: black;
   text-align: center;
   font-size: 40px;
-  margin: 0%;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-body main section {
+.body .maindos section {
   display: grid;
-  grid-template-columns: repeat(3, 3fr) grid-template-areas "uno, dos, tres" "uno, dos, tres" "uno, dos, tres";
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-areas: "uno, dos, tres" "uno, dos, tres" "uno, dos, tres";
   grid-area: "uno, dos, tres" "uno, dos, tres" "uno, dos, tres";
 }
-body main img {
-  height: 600px;
-  width: 500px;
+.body .maindos img {
+  height: 300px;
+  width: 300px;
 }
-body main .dos {
+.body .maindos .dos {
   font-family: "Ruda", sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   color: black;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(240, 219, 219);
+}
+body .headertres {
+  background-color: rgb(219, 163, 154);
+}
+body .headertres h1 {
+  padding-left: 20px;
+  color: black;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+body .headertres fieldset {
+  padding-left: 80%;
+}
+body .headertres input {
+  background-color: rgb(240, 219, 219);
+}
+body .maintres h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+}
+body .maintres section img {
+  padding-left: 30px;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 300px;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
