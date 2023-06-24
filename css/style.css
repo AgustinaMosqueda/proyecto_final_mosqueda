@@ -9,10 +9,12 @@ html {
 }
 
 .headeruno {
-  background-color: rgb(240, 219, 219) h1;
-  background-color-text-align: center;
-  background-color-font-family: "Oswald", sans-serif;
-  background-color-color: rgb(254, 252, 243);
+  background-color: rgb(240, 219, 219);
+}
+.headeruno h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: rgb(254, 252, 243);
 }
 .headeruno form fieldset {
   padding-left: 80%;
