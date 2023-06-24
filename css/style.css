@@ -1,10 +1,18 @@
-.headeruno {
-  background-color: rgb(240, 219, 219);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.headeruno h1 {
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  color: rgb(254, 252, 243);
+
+html {
+  font-size: 62.5%;
+}
+
+.headeruno {
+  background-color: rgb(240, 219, 219) h1;
+  background-color-text-align: center;
+  background-color-font-family: "Oswald", sans-serif;
+  background-color-color: rgb(254, 252, 243);
 }
 .headeruno form fieldset {
   padding-left: 80%;
@@ -23,7 +31,7 @@
   padding-top: 10px;
   padding-bottom: 20px;
 }
-.mainuno h3 {
+.mainuno h3, .mainuno h5 {
   text-align: center;
   font-family: "Ruda", sans-serif;
   font-size: 50px;
@@ -34,11 +42,10 @@
   display: flex;
   flex-direction: column;
 }
-.mainuno h5 {
-  font-size: 50px;
+
+h5 {
   display: flex;
   flex-direction: column;
-  font-family: "Ruda", sans-serif;
   padding-bottom: 300px;
 }
 
@@ -60,32 +67,33 @@
 .body header input {
   background-color: rgb(240, 219, 219);
 }
-.body .maindos {
+
+.maindos {
   background-color: rgb(245, 235, 224);
 }
-.body .maindos h1 {
+.maindos h1 {
   font-family: "Ruda", sans-serif;
   color: black;
+  font-size: 45px;
   text-align: center;
-  font-size: 40px;
   margin: 0;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.body .maindos section {
+.maindos section {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   grid-template-areas: "uno, dos, tres" "uno, dos, tres" "uno, dos, tres";
   grid-area: "uno, dos, tres" "uno, dos, tres" "uno, dos, tres";
 }
-.body .maindos img {
+.maindos img {
   height: 300px;
   width: 300px;
 }
-.body .maindos .dos {
+.maindos .dos {
   font-family: "Ruda", sans-serif;
-  font-size: 45px;
   color: black;
+  font-size: 45px;
   text-align: center;
 }
 
@@ -118,6 +126,124 @@ body .maintres section img {
   height: 400px;
   width: 300px;
   align-items: center;
+}
+
+.bodycuatro {
+  background-color: rgb(240, 219, 219);
+}
+.bodycuatro .headercuatro {
+  background-color: rgb(219, 163, 154);
+}
+.bodycuatro .headercuatro h1 {
+  padding-left: 20px;
+  color: black;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+.bodycuatro .headercuatro fieldset {
+  padding-left: 80%;
+}
+.bodycuatro .headercuatro input {
+  background-color: rgb(240, 219, 219);
+}
+.bodycuatro .headercuatro h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+}
+.bodycuatro section img {
+  padding-left: 30px;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 300px;
+  align-items: center;
+}
+
+.bodycinco {
+  background-color: rgb(240, 219, 219);
+}
+.bodycinco .headercinco {
+  background-color: rgb(219, 163, 154);
+}
+.bodycinco .headercinco h1 {
+  padding-left: 20px;
+  color: black;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+.bodycinco .headercinco fieldset {
+  padding-left: 80%;
+}
+.bodycinco .headercinco input {
+  background-color: rgb(240, 219, 219);
+}
+.bodycinco .headercinco h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+}
+.bodycinco section img {
+  padding-left: 30px;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 300px;
+  align-items: center;
+}
+
+.bodyseis {
+  background-color: rgb(240, 219, 219);
+}
+.bodyseis .headerseis {
+  background-color: rgb(219, 163, 154);
+}
+.bodyseis .headerseis h1 {
+  padding-left: 20px;
+  color: black;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+.bodyseis .headerseis fieldset {
+  padding-left: 80%;
+}
+.bodyseis .headerseis input {
+  background-color: rgb(240, 219, 219);
+}
+.bodyseis .headerseis h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+}
+.bodyseis section img {
+  padding-left: 30px;
+  height: 400px;
+  width: 300px;
+}
+
+.bodysiete {
+  background-color: rgb(245, 235, 224);
+}
+.bodysiete .headersiete h1 {
+  padding-left: 20px;
+  color: rgb(254, 252, 243);
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+.bodysiete .headersiete fieldset {
+  padding-left: 80%;
+}
+.bodysiete .headersiete input {
+  font-size: 15px;
+  background-color: rgba(254, 252, 243, 0.9882);
+}
+.bodysiete .mainsiete {
+  text-align: center;
+}
+.bodysiete .mainsiete .sectionsiete {
+  font-family: "Ruda", sans-serif;
+}
+.bodysiete .mainsiete .sectionsiete p {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

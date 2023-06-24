@@ -1,0 +1,28 @@
+.maindos{
+    background-color:rgba(245, 235, 224, 1) ;
+    h1{
+        @include color;
+        margin:0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    section{
+        display: grid;
+        grid-template-columns:repeat(3,3fr);
+        grid-template-areas:
+        "uno, dos, tres"
+        "uno, dos, tres"
+        "uno, dos, tres";
+        grid-area:
+        "uno, dos, tres"
+        "uno, dos, tres"
+        "uno, dos, tres";
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+.dos{
+    @include color;
+}
+}

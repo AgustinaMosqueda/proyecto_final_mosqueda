@@ -1,0 +1,30 @@
+
+.bodysiete{
+    background-color: rgba(245, 235, 224, 1);
+    .headersiete{
+        h1{
+            padding-left: 20px;
+            color:rgba(254, 252, 243, 1) ;
+        text-align:left;
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        }
+        fieldset{
+            padding-left: 80%;
+        }
+            input{
+                font-size: 15px;
+            background-color:rgba(254, 252, 243, 0.9882);
+        }
+
+    }
+    .mainsiete{
+        text-align: center;
+        .sectionsiete{
+            font-family: 'Ruda', sans-serif;
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+}
